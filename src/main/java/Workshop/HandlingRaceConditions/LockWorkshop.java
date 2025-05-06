@@ -1,7 +1,12 @@
 package Workshop.HandlingRaceConditions;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class LockWorkshop {
     public static int counter = 0;
+    static Lock lock = new ReentrantLock();
+
     public static class MyRunnable implements Runnable
     {
         //TODO: use ReentrantLock to prevent race condition
@@ -9,7 +14,9 @@ public class LockWorkshop {
         public void run() {
             int i;
             for (i = 0; i < 1_000_000; i++) {
+                lock.lock();
                 counter += 1;
+                lock.unlock();
             }
             System.out.println("number of increments in " + Thread.currentThread().getName() + ": " + i);
         }

@@ -20,13 +20,23 @@ public class DeadlockPreventionWorkshop {
     }
     public static void useResources(Resource r1, Resource r2) {
         //TODO: prevent deadlock
+        Resource first, second;
+        if(r1.getId() > r2.getId()) {
+            first = r1;
+            second = r2;
+        } else {
+            first = r2;
+            second = r1;
+        }
+
+
         //HINT: if you make sure that all locks are always taken in the same order by any thread, deadlocks cannot occur
         System.out.println(Thread.currentThread().getName() + " is attempting to lock " + r1.getName());
-        synchronized (r1) {
+        synchronized (first) {
             System.out.println("+ " +Thread.currentThread().getName() + " locked " + r1.getName());
             try { Thread.sleep(100); } catch (InterruptedException ignored) {}
             System.out.println(Thread.currentThread().getName() + " is attempting to lock " + r2.getName());
-            synchronized (r2) {
+            synchronized (second) {
                 System.out.println("+ " +Thread.currentThread().getName() + " locked " + r2.getName());
                 System.out.println(Thread.currentThread().getName() + " using " + r1.getName() + " and " + r2.getName());
             }

@@ -5,34 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a62a549a-464e-41a9-b0a9-5bcb230cce37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/LocksAndDeadlocks/DeadlockExample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/LocksAndDeadlocks/LockExample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/LocksAndDeadlocks/LockExample02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/LocksAndDeadlocks/LockExample03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/LocksAndDeadlocks/LockExample04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/RaceCondition/UnhandledRaceCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/Synchronized/SynchronizedExample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/Synchronized/SynchronizedExample02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/Synchronized/SynchronizedExample03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ThreadPoolAndExecutorServices/PoolThreadRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ThreadPoolAndExecutorServices/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ThreadPoolAndExecutorServices/ThreadPoolImplementationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ThreadPoolExample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ThreadPoolExample02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExamples/ThreadPool/ThreadPoolExample03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Workshop/DeadlockPrevention/DeadlockPreventionWorkshop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Workshop/HandlingRaceConditions/LockWorkshop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Workshop/HandlingRaceConditions/SynchronizedWorkshop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Workshop/ThreadPool/TaylorSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Workshop/DeadlockPrevention/DeadlockPreventionWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Workshop/DeadlockPrevention/DeadlockPreventionWorkshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Workshop/HandlingRaceConditions/LockWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Workshop/HandlingRaceConditions/LockWorkshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Workshop/HandlingRaceConditions/SynchronizedWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Workshop/HandlingRaceConditions/SynchronizedWorkshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Workshop/ThreadPool/TaylorSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Workshop/ThreadPool/TaylorSeries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +22,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Advanced-Multithreading-Workshop" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +65,7 @@
     "Gradle.Advanced-Multithreading-Workshop [:BasicExecutorService.main()].executor": "Run",
     "Gradle.Advanced-Multithreading-Workshop [:CalculatingExp.main()].executor": "Run",
     "Gradle.Advanced-Multithreading-Workshop [:Calculator.main()].executor": "Run",
+    "Gradle.Advanced-Multithreading-Workshop [:ClassExamples.LocksAndDeadlocks.CounterLock.main()].executor": "Run",
     "Gradle.Advanced-Multithreading-Workshop [:CounterLock.main()].executor": "Run",
     "Gradle.Advanced-Multithreading-Workshop [:Deadlock.main()].executor": "Run",
     "Gradle.Advanced-Multithreading-Workshop [:DeadlockExample01.main()].executor": "Run",
@@ -90,12 +87,25 @@
     "Gradle.Advanced-Multithreading-Workshop [:TaylorSeries.main()].executor": "Run",
     "Gradle.Advanced-Multithreading-Workshop [:Thrd3.main()].executor": "Run",
     "Gradle.Advanced-Multithreading-Workshop [:UnhandledRaceCondition.main()].executor": "Run",
+    "Gradle.Advanced-Multithreading-Workshop [:Workshop.DeadlockPrevention.DeadlockPreventionWorkshop.main()].executor": "Run",
+    "Gradle.Advanced-Multithreading-Workshop [:Workshop.HandlingRaceConditions.LockWorkshop.main()].executor": "Run",
+    "Gradle.Advanced-Multithreading-Workshop [:Workshop.HandlingRaceConditions.SynchronizedWorkshop.main()].executor": "Run",
+    "Gradle.Advanced-Multithreading-Workshop [:Workshop.ThreadPool.TaylorSeries.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/University/Term04/AP_TA/Assignments/Advanced-Multithreading-Workshop",
-    "onboarding.tips.debug.path": "E:/University/Term04/AP_TA/Assignments/Advanced-Multithreading-Workshop/src/main/java/Main.java"
+    "last_opened_file_path": "D:/learning/gradle-8.13",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/University/Term04/AP_TA/Assignments/Advanced-Multithreading-Workshop/src/main/java/Main.java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -182,6 +192,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -190,7 +208,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746186922695</updated>
+      <workItem from="1746544779584" duration="1013000" />
+      <workItem from="1746561667668" duration="4858000" />
+      <workItem from="1746570448363" duration="1371000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

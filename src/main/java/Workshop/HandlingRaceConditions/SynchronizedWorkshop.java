@@ -1,5 +1,8 @@
 package Workshop.HandlingRaceConditions;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class SynchronizedWorkshop {
     public static int counter = 0;
     public static class MyRunnable implements Runnable
@@ -9,7 +12,9 @@ public class SynchronizedWorkshop {
         public void run() {
             int i;
             for (i = 0; i < 1_000_000; i++) {
+                synchronized (SynchronizedWorkshop.class) {
                     counter += 1;
+                }
             }
             System.out.println("number of increments in " + Thread.currentThread().getName() + ": " + i);
         }

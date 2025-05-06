@@ -11,25 +11,46 @@ public class TaylorSeries {
     public static class CalculateSin implements Runnable {
         MathContext mc = new MathContext(1000); // use when calling BigDecimal operations like divide or multiply
         BigDecimal x;
-        int n;
+        int n,k;
         public CalculateSin(BigDecimal x, int n) {
             this.x = x;
             this.n = n;
+            k = (2 * n) + 1;
         }
 
         @Override
         public void run() {
             // TODO: Calculate the n-th term of the Taylor series for sin(x)
             // TODO: Add the term to the global sum (ensure thread-safety)
+
+            BigDecimal factor = factorial(k);
+            BigDecimal pow= power(x,k);
+            BigDecimal result = pow.divide(factor,mc);
+            if(n%2!=0) {
+                result = result.negate();
+            }
+
+            sum(result);
         }
 
 
         // TODO: Implement factorial(n) using BigDecimal
         public BigDecimal factorial(int n){
-            return new BigDecimal(0);
+            BigDecimal result = BigDecimal.ONE;
+            for (int i = 2; i <= n; i++) {
+                result = result.multiply(BigDecimal.valueOf(i));
+            }
+            return result;
+        }
+
+        public synchronized BigDecimal power(BigDecimal x, int n) {
+            BigDecimal result = BigDecimal.ONE;
+            result = x.pow(n,mc);
+            return result;
         }
     }
     public static BigDecimal sum;
+    public static synchronized void sum(BigDecimal x) { sum = sum.add(x); }
 
     public static void main(String[] Args) {
 
